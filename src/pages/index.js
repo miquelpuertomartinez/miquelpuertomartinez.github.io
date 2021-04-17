@@ -1,6 +1,7 @@
 import React from "react"
 import { Link } from 'gatsby'
 import '../styles/index.scss'
+import Footer from '../components/Footer'
 
 const IndexPage = () => {
   return (
@@ -12,6 +13,7 @@ const IndexPage = () => {
       <div class='content'>
       <div class="button"><Link style={{ textDecoration: 'none' }} to="/blog" ><a style={{ color: 'black'}}>My work</a></Link></div>
       </div>
+      <Footer/>
     </div> 
   )
 }

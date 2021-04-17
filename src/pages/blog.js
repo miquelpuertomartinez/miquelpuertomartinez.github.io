@@ -45,7 +45,6 @@ const BlogPage = () => {
                         </Card.Body>
                     </Card>
                 </Col>
-            
             </Row>
         </div>
     )
