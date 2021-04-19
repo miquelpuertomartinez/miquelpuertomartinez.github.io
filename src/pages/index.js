@@ -16,8 +16,10 @@ const IndexPage = () => {
             <a style={{ color: 'black'}}>My work</a>
           </Link>
         </div>
+        
       </div>
       <Footer/>
+      
     </div> 
   )
 }
