@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'gatsby'
 import '../styles/blog.scss'
 import Footer from '../components/Footer'
 import {Card, Col, Jumbotron, Row} from 'react-bootstrap'
@@ -17,7 +18,7 @@ const BlogPage = () => {
                             <Card.Text>
 
                             </Card.Text>
-                            <Card.Link id="link" href="#">Read more...</Card.Link>
+                            <Link id="link" to="/TEMPLATE">Read more...</Link>
                         </Card.Body>
                     </Card>
                 </Col>

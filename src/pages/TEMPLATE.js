@@ -1,0 +1,27 @@
+import React from "react"
+import { Link } from 'gatsby'
+import '../styles/TEMPLATE.scss'
+import Footer from '../components/Footer'
+
+const IndexPage = () => {
+  return (
+    <div>
+      <div id="article-body">
+        <Link id="article-button" to="/blog">Back</Link>
+        <h1 id="article-title">Article title</h1>
+        <div id="article-text">
+          <a>
+            Lorem ipsum dolor sit amet consectetur adipiscing elit, lacus nam nulla varius velit turpis. Condimentum id nulla diam maecenas elementum taciti enim libero, ridiculus commodo fusce neque cubilia dictumst inceptos senectus, est consequat nisl urna pellentesque nullam morbi. Porttitor est convallis aptent eros fusce class dictumst porta, senectus sodales gravida morbi augue faucibus et, velit maecenas ut arcu rhoncus ac fermentum.Lorem ipsum dolor sit amet consectetur adipiscing elit, lacus nam nulla varius velit turpis. Condimentum id nulla diam maecenas elementum taciti enim libero, ridiculus commodo fusce neque cubilia dictumst inceptos senectus, est consequat nisl urna pellentesque nullam morbi. Porttitor est convallis aptent eros fusce class dictumst porta, senectus sodales gravida morbi augue faucibus et, velit maecenas ut arcu rhoncus ac fermentum.
+            Ultrices nec nibh laoreet imperdiet hendrerit quis venenatis eget dis consequat in convallis natoque fermentum montes, himenaeos sagittis magna dapibus porta libero interdum cubilia pharetra donec molestie taciti iaculis aptent. Facilisi sodales nullam luctus urna accumsan lobortis aptent aenean fermentum, et facilisis duis habitasse nascetur ultricies condimentum himenaeos, nisl donec nibh magnis lacinia neque libero faucibus. Tempus pellentesque dictum justo morbi dictumst fermentum, et blandit dignissim quam ridiculus massa auctor, sodales quis dui libero taciti.Lorem ipsum dolor sit amet consectetur adipiscing elit, lacus nam nulla varius velit turpis. Condimentum id nulla diam maecenas elementum taciti enim libero, ridiculus commodo fusce neque cubilia dictumst inceptos senectus, est consequat nisl urna pellentesque nullam morbi. Porttitor est convallis aptent eros fusce class dictumst porta, senectus sodales gravida morbi augue faucibus et, velit maecenas ut arcu rhoncus ac fermentum.
+            Ultrices nec nibh laoreet imperdiet hendrerit quis venenatis eget dis consequat in convallis natoque fermentum montes, himenaeos sagittis magna dapibus porta libero interdum cubilia pharetra donec molestie taciti iaculis aptent. Facilisi sodales nullam luctus urna accumsan lobortis aptent aenean fermentum, et facilisis duis habitasse nascetur ultricies condimentum himenaeos, nisl donec nibh magnis lacinia neque libero faucibus. Tempus pellentesque dictum justo morbi dictumst fermentum, et blandit dignissim quam ridiculus massa auctor, sodales quis dui libero taciti.Lorem ipsum dolor sit amet consectetur adipiscing elit, lacus nam nulla varius velit turpis. Condimentum id nulla diam maecenas elementum taciti enim libero, ridiculus commodo fusce neque cubilia dictumst inceptos senectus, est consequat nisl urna pellentesque nullam morbi. Porttitor est convallis aptent eros fusce class dictumst porta, senectus sodales gravida morbi augue faucibus et, velit maecenas ut arcu rhoncus ac fermentum.
+            Lorem ipsum dolor sit amet consectetur adipiscing elit, lacus nam nulla varius velit turpis. Condimentum id nulla diam maecenas elementum taciti enim libero, ridiculus commodo fusce neque cubilia dictumst inceptos senectus, est consequat nisl urna pellentesque nullam morbi. Porttitor est convallis aptent eros fusce class dictumst porta, senectus sodales gravida morbi augue faucibus et, velit maecenas ut arcu rhoncus ac fermentum.Lorem ipsum dolor sit amet consectetur adipiscing elit, lacus nam nulla varius velit turpis. Condimentum id nulla diam maecenas elementum taciti enim libero, ridiculus commodo fusce neque cubilia dictumst inceptos senectus, est consequat nisl urna pellentesque nullam morbi. Porttitor est convallis aptent eros fusce class dictumst porta, senectus sodales gravida morbi augue faucibus et, velit maecenas ut arcu rhoncus ac fermentum.
+            Ultrices nec nibh laoreet imperdiet hendrerit quis venenatis eget dis consequat in convallis natoque fermentum montes, himenaeos sagittis magna dapibus porta libero interdum cubilia pharetra donec molestie taciti iaculis aptent. Facilisi sodales nullam luctus urna accumsan lobortis aptent aenean fermentum, et facilisis duis habitasse nascetur ultricies condimentum himenaeos, nisl donec nibh magnis lacinia neque libero faucibus. Tempus pellentesque dictum justo morbi dictumst fermentum, et blandit dignissim quam ridiculus massa auctor, sodales quis dui libero taciti.Lorem ipsum dolor sit amet consectetur adipiscing elit, lacus nam nulla varius velit turpis. Condimentum id nulla diam maecenas elementum taciti enim libero, ridiculus commodo fusce neque cubilia dictumst inceptos senectus, est consequat nisl urna pellentesque nullam morbi. Porttitor est convallis aptent eros fusce class dictumst porta, senectus sodales gravida morbi augue faucibus et, velit maecenas ut arcu rhoncus ac fermentum.
+          </a>
+        </div>
+        <Footer/>
+      </div>
+    </div>
+  )
+}
+
+export default IndexPage
