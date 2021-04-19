@@ -7,7 +7,7 @@ const IndexPage = () => {
   return (
     <div>
       <div id="article-body">
-        <Link id="article-button" to="/blog">Back</Link>
+        <Link id="article-button" to="/blog">Go back</Link>
         <h1 id="article-title">Article title</h1>
         <div id="article-text">
           <a>
