@@ -11,7 +11,11 @@ const IndexPage = () => {
         <p>Telematic engineer, communications and maker</p>
       </div>
       <div class='content'>
-      <div class="button"><Link style={{ textDecoration: 'none' }} to="/blog" ><a style={{ color: 'black'}}>My work</a></Link></div>
+        <div class="button">
+          <Link style={{ textDecoration: 'none' }} to="/blog" >
+            <a style={{ color: 'black'}}>My work</a>
+          </Link>
+        </div>
       </div>
       <Footer/>
     </div> 

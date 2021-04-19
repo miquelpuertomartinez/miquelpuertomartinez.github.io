@@ -1,5 +1,6 @@
 import React from 'react'
 import '../styles/blog.scss'
+import Footer from '../components/Footer'
 import {Card, Col, Jumbotron, Row} from 'react-bootstrap'
 
 const BlogPage = () => {
@@ -12,7 +13,7 @@ const BlogPage = () => {
                 <Col>
                     <Card  className="mx-auto my-2">
                         <Card.Body>
-                            <Card.Title>CoAP</Card.Title>
+                            <Card.Title style={{fontWeight: "bold"}}>CoAP</Card.Title>
                             <Card.Text>
                                 Some quick example text to build on the card title and make up the bulk of
                                 the card's content.
@@ -24,7 +25,7 @@ const BlogPage = () => {
                 <Col>
                     <Card  className="mx-auto my-2">
                         <Card.Body>
-                            <Card.Title>MQTT</Card.Title>
+                            <Card.Title style={{fontWeight: "bold"}}>MQTT</Card.Title>
                             <Card.Text>
                                 Some quick example text to build on the card title and make up the bulk of
                                 the card's content.
@@ -36,7 +37,7 @@ const BlogPage = () => {
                 <Col>
                     <Card  className="mx-auto my-2">
                         <Card.Body>
-                            <Card.Title>LoRA and LoRAWAN</Card.Title>
+                            <Card.Title style={{fontWeight: "bold"}}>LoRA and LoRAWAN</Card.Title>
                             <Card.Text>
                                 Some quick example text to build on the card title and make up the bulk of
                                 the card's content.
@@ -46,6 +47,7 @@ const BlogPage = () => {
                     </Card>
                 </Col>
             </Row>
+            <Footer/>
         </div>
     )
 }
